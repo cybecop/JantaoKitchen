@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+
+    <!-- Главный экран (Авторизация) -->
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.jantaokitchen.MainFragment"
+        android:label="Main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <!-- Регистрация -->
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.jantaokitchen.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register">
+        <action
+            android:id="@+id/action_registerFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <!-- Главный экран меню -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.jantaokitchen.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+
+    <!-- Экран категорий -->
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.jantaokitchen.MenuFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/action_menuFragment_to_spicyFragment"
+            app:destination="@id/spicyFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_coldFragment"
+            app:destination="@id/coldFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_soupsFragment"
+            app:destination="@id/soupsFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_sweetFragment"
+            app:destination="@id/sweetFragment" />
+    </fragment>
+
+    <!-- Категория: Spicy -->
+    <fragment
+        android:id="@+id/spicyFragment"
+        android:name="com.example.jantaokitchen.SpicyFragment"
+        android:label="Spicy"
+        tools:layout="@layout/fragment_spicy" />
+
+    <!-- Категория: Cold -->
+    <fragment
+        android:id="@+id/coldFragment"
+        android:name="com.example.jantaokitchen.ColdFragment"
+        android:label="Cold"
+        tools:layout="@layout/fragment_cold" />
+
+    <!-- Категория: Soups -->
+    <fragment
+        android:id="@+id/soupsFragment"
+        android:name="com.example.jantaokitchen.SoupsFragment"
+        android:label="Soups"
+        tools:layout="@layout/fragment_soups" />
+
+    <!-- Категория: Sweet -->
+    <fragment
+        android:id="@+id/sweetFragment"
+        android:name="com.example.jantaokitchen.SweetFragment"
+        android:label="Sweet"
+        tools:layout="@layout/fragment_sweet" />
+</navigation>

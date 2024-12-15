@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000">
+
+
+    <!-- Панель для блюда Tteokbokki -->
+    <LinearLayout
+        android:id="@+id/firstPanel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tteokbokki"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook"
+            android:background="#FF0000"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <!-- Панель для блюда Yangnyeom Chicken -->
+    <LinearLayout
+        android:id="@+id/secondPanel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/firstPanel"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yangnyeom Chicken"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook"
+            android:background="#FF0000"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <!-- Панель для блюда Vegetable Ramen -->
+    <LinearLayout
+        android:id="@+id/thirdPanel"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/secondPanel"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vegetable Ramen"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cook"
+            android:background="#FF0000"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <!-- Кнопка "Back" -->
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:layout_margin="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

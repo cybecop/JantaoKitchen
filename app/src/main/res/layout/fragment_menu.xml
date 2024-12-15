@@ -1,0 +1,49 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000">
+
+    <Button
+        android:id="@+id/btn_spicy"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Spicy"
+        android:textColor="#FF0000"
+        android:background="#FFFFFF"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_cold"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Cold"
+        android:textColor="#0000FF"
+        android:background="#FFFFFF"
+        android:layout_below="@id/btn_spicy"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_soups"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Soups"
+        android:textColor="#FFFF00"
+        android:background="#FFFFFF"
+        android:layout_below="@id/btn_cold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_sweet"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sweet"
+        android:textColor="#FF69B4"
+        android:background="#FFFFFF"
+        android:layout_below="@id/btn_soups"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
