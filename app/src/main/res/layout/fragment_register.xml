@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Register, Chef!"
         android:textColor="#FFFFFF"
-        android:textSize="32sp"
+        android:textSize="33sp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp" />
 
@@ -22,7 +22,7 @@
         android:id="@+id/et_register_login"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="enter your login"
+        android:hint="Enter your login"
         android:background="#FFFFFF"
         android:layout_marginTop="50dp"
         android:layout_below="@id/tv_register_title"
@@ -33,9 +33,9 @@
         android:id="@+id/et_register_password"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="enter your password"
+        android:hint="Enter your password"
         android:background="#FFFFFF"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="21dp"
         android:layout_below="@id/et_register_login"
         android:layout_centerHorizontal="true"
         android:inputType="textPassword" />
