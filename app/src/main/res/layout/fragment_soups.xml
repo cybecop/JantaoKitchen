@@ -20,8 +20,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tteokbokki"
-            android:textColor="#FF0000"
+            android:text="Sundubu Jjigae"
+            android:textColor="#00FF00"
             android:textSize="24sp"
             android:layout_gravity="center" />
 
@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cook"
-            android:background="#FF0000"
+            android:background="#00FF00"
             android:textColor="#FFFFFF"
             android:layout_marginTop="10dp" />
     </LinearLayout>
@@ -49,8 +49,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Yangnyeom Chicken"
-            android:textColor="#FF0000"
+            android:text="Kimchi Jjigae"
+            android:textColor="#00FF00"
             android:textSize="24sp"
             android:layout_gravity="center" />
 
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cook"
-            android:background="#FF0000"
+            android:background="#00FF00"
             android:textColor="#FFFFFF"
             android:layout_marginTop="10dp" />
     </LinearLayout>
@@ -78,8 +78,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Vegetable Ramen"
-            android:textColor="#FF0000"
+            android:text="Rib Galbitang"
+            android:textColor="#00FF00"
             android:textSize="24sp"
             android:layout_gravity="center" />
 
@@ -87,7 +87,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cook"
-            android:background="#FF0000"
+            android:background="#00FF00"
             android:textColor="#FFFFFF"
             android:layout_marginTop="10dp" />
     </LinearLayout>
@@ -99,7 +99,7 @@
         android:layout_height="wrap_content"
         android:text="Back"
         android:background="#FFFFFF"
-        android:textColor="#000000"
+        android:textColor="#00FF00"
         android:layout_margin="16dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true" />
