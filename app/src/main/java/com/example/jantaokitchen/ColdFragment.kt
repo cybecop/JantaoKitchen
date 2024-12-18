@@ -19,7 +19,7 @@ class ColdFragment : Fragment() {
         val backButton = view.findViewById<Button>(R.id.btn_back)
 
         backButton?.setOnClickListener {
-            findNavController().navigateUp() // Более правильный возврат
+            findNavController().navigateUp()
         }
 
         return view

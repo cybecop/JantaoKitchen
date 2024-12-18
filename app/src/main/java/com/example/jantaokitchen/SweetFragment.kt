@@ -18,7 +18,7 @@ class SweetFragment : Fragment() {
         val backButton = view.findViewById<Button>(R.id.btn_back)
 
         backButton.setOnClickListener {
-            requireActivity().onBackPressed() // Возврат назад
+            requireActivity().onBackPressed()
         }
 
         return view

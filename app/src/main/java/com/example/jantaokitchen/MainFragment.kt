@@ -33,6 +33,12 @@ class MainFragment : Fragment() {
                 Toast.makeText(context, "Invalid login or password", Toast.LENGTH_SHORT).show()
             }
         }
+
+
+        val registerButton = view.findViewById<Button>(R.id.btn_register)
+        registerButton?.setOnClickListener {
+            findNavController().navigate(R.id.action_mainFragment_to_registerFragment)
+        }
         return view
     }
 }

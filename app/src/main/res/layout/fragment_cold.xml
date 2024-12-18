@@ -7,7 +7,7 @@
     android:background="#0000FF">
 
 
-    <!-- Панель для блюда Lemon Cheong -->
+
     <LinearLayout
         android:id="@+id/firstPanel"
         android:layout_width="300dp"
@@ -35,7 +35,7 @@
             android:layout_marginTop="10dp" />
     </LinearLayout>
 
-    <!-- Панель для блюда Lemonade Yuzu -->
+
     <LinearLayout
         android:id="@+id/secondPanel"
         android:layout_width="300dp"
@@ -64,7 +64,7 @@
             android:layout_marginTop="10dp" />
     </LinearLayout>
 
-    <!-- Панель для блюда Blue Lagoon -->
+
     <LinearLayout
         android:id="@+id/thirdPanel"
         android:layout_width="300dp"
@@ -93,7 +93,7 @@
             android:layout_marginTop="10dp" />
     </LinearLayout>
 
-    <!-- Кнопка "Back" -->
+
     <Button
         android:id="@+id/btn_back"
         android:layout_width="wrap_content"
